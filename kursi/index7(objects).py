@@ -27,3 +27,28 @@
    # print("po eshte ne objekt")
 #else:
   #  print("jo nuk eshte ne objekt")
+
+#shtetet = {
+    #kosova":{
+     #   "kryeqyteti":"prishtina",
+    #    "popullsia": 1800000000
+   # },
+     #"shqipria":{
+      #  "kryeqyteti":"tirana",
+     #   "popullsia": 455409774545
+    #},
+    #  "italia":{
+   #      "popullsia": 5985980970867
+ #   },
+#}
+#print(shtetet["kosova"]["kryeqyteti"])
+
+produktet ={
+    "tv": 300,
+    "maus": 5,
+    "laptop": 1000,
+    "keybord": 50 
+}
+print(sorted(produktet.values()))
+cmimiMeivogel = min(produktet.values())
+print(f"produkti me qmimit me te vogel eshte: {cmimiMeivogel}")
